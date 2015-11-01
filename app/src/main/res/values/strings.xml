@@ -11,6 +11,6 @@
         <item>Sports</item>
         <item>Fruits</item>
     </string-array>
-    <string name="title_activity_fill_lesson">Your Lesson</string>
+    <string name="title_activity_fill_lesson_jap">Your Lesson</string>
     <string name="title_activity_show_score">Your Score</string>
 </resources>

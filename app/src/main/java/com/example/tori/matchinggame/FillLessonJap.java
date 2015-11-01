@@ -22,7 +22,7 @@ import java.util.Random;
 import java.util.Set;
 
 
-public class FillLesson extends ActionBarActivity {
+public class FillLessonJap extends ActionBarActivity {
 
     HashMap sports, fruits, curr;
     String randomKey;
@@ -36,7 +36,7 @@ public class FillLesson extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fill_lesson);
+        setContentView(R.layout.activity_fill_lesson_jap);
 
         //fill up sports hashmap
         sports = new HashMap<>();
@@ -87,7 +87,7 @@ public class FillLesson extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_fill_lesson, menu);
+        getMenuInflater().inflate(R.menu.menu_fill_lesson_jap, menu);
         return true;
     }
 

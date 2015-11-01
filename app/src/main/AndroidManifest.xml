@@ -41,8 +41,8 @@
                 android:value="com.example.tori.matchinggame.PickTopic" />
         </activity>
         <activity
-            android:name=".FillLesson"
-            android:label="@string/title_activity_fill_lesson"
+            android:name=".FillLessonJap"
+            android:label="@string/title_activity_fill_lesson_jap"
             android:parentActivityName=".FillInBlank" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -51,10 +51,10 @@
         <activity
             android:name=".ShowScore"
             android:label="@string/title_activity_show_score"
-            android:parentActivityName=".FillLesson" >
+            android:parentActivityName=".FillLessonJap" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.tori.matchinggame.FillLesson" />
+                android:value="com.example.tori.matchinggame.FillLessonJap" />
         </activity>
     </application>
 

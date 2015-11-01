@@ -61,7 +61,7 @@ public class FillInBlank extends ActionBarActivity {
 
     public void beginVocab(View view) {
         String curr = spinner.getSelectedItem().toString();
-        Intent intent = new Intent(this, FillLesson.class);
+        Intent intent = new Intent(this, FillLessonJap.class);
         intent.putExtra("lesson", curr);
         startActivity(intent);
     }
