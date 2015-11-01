@@ -80,6 +80,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.tori.matchinggame.FillInBlank" />
         </activity>
+        <activity
+            android:name=".MatchLessonJap"
+            android:label="@string/title_activity_match_lesson_jap"
+            android:parentActivityName=".Matching" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.tori.matchinggame.Matching" />
+        </activity>
     </application>
 
 </manifest>

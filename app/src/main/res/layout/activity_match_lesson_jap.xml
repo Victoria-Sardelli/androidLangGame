@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tori.matchinggame.MatchLessonJap">
+
+    <TextView
+        android:id="@+id/lessonText"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="25sp"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/lessonText" />
+
+    <RelativeLayout
+        android:layout_below="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="submit"/>
+        <Button
+            android:id="@+id/two"
+
+            android:layout_below="@+id/one"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="submit"/>
+        <Button
+            android:id="@+id/three"
+
+            android:layout_below="@+id/two"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="submit"/>
+        <Button
+            android:id="@+id/four"
+
+            android:layout_below="@+id/three"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="submit"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
