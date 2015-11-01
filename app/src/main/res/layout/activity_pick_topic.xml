@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tori.matchinggame.pickTopic">
+
+    <TextView
+        android:id="@+id/instructions"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick a topic:"/>
+
+    <LinearLayout
+        android:layout_below="@+id/instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/albanian"
+            android:gravity="center"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+
+            android:textSize="25sp"
+            android:text="Albanian"
+
+            android:onClick="startGame"/>
+
+        <Button
+            android:id="@+id/french"
+            android:gravity="center"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="25sp"
+            android:text="French"
+
+            android:onClick="startGame"/>
+
+        <Button
+            android:id="@+id/italian"
+            android:gravity="center"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="25sp"
+            android:text="Italian"
+
+            android:onClick="startGame"/>
+
+        <Button
+            android:id="@+id/japanese"
+            android:gravity="center"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="25sp"
+            android:text="Japanese"
+
+            android:onClick="startGame"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LangMatch</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pick_topic">Pick Topic</string>
+    <string name="title_activity_fill_in_blank">Fill-in-the-blank Game</string>
+    <string name="title_activity_matching">Matching Game</string>
+
+    <string-array name="vocabArray">
+        <item>Sports</item>
+        <item>Fruits</item>
+    </string-array>
+    <string name="title_activity_fill_lesson">Your Lesson</string>
+    <string name="title_activity_show_score">Your Score</string>
+</resources>

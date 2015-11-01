@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tori.matchinggame" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PickTopic"
+            android:label="@string/title_activity_pick_topic"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.tori.matchinggame.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FillInBlank"
+            android:label="@string/title_activity_fill_in_blank"
+            android:parentActivityName=".PickTopic" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.tori.matchinggame.PickTopic" />
+        </activity>
+        <activity
+            android:name=".Matching"
+            android:label="@string/title_activity_matching"
+            android:parentActivityName=".PickTopic" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.tori.matchinggame.PickTopic" />
+        </activity>
+        <activity
+            android:name=".FillLesson"
+            android:label="@string/title_activity_fill_lesson"
+            android:parentActivityName=".FillInBlank" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.tori.matchinggame.FillInBlank" />
+        </activity>
+        <activity
+            android:name=".ShowScore"
+            android:label="@string/title_activity_show_score"
+            android:parentActivityName=".FillLesson" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.tori.matchinggame.FillLesson" />
+        </activity>
+    </application>
+
+</manifest>

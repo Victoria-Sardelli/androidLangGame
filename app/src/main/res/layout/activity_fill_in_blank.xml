@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tori.matchinggame.FillInBlank">
+
+    <TextView
+        android:id="@+id/lesson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Pick a lesson:"/>
+
+
+    <Spinner
+        android:id="@+id/vocabSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lesson"
+        android:layout_marginTop="50dp"
+        android:layout_alignLeft="@+id/lesson"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vocabSpinner"
+        android:layout_alignRight="@+id/lesson"
+
+        android:text="Enter"
+
+        android:onClick="beginVocab"/>
+
+</RelativeLayout>
