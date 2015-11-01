@@ -63,6 +63,7 @@ public class FillInBlank extends ActionBarActivity {
         String curr = spinner.getSelectedItem().toString();
         String topic = getIntent().getExtras().getString("topic");
         Intent intent;
+        //start the right language game
         if (topic.equals("japanese")) {
             intent = new Intent(this, FillLessonJap.class);
             intent.putExtra("lesson", curr);
