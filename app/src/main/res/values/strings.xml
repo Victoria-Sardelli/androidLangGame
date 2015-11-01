@@ -14,4 +14,6 @@
     <string name="title_activity_fill_lesson_jap">Your Lesson</string>
     <string name="title_activity_show_score">Your Score</string>
     <string name="title_activity_fill_lesson_alb">Your Lesson</string>
+    <string name="title_activity_fill_lesson_fre">Your Lesson</string>
+    <string name="title_activity_fill_lesson_ita">Your Lesson</string>
 </resources>

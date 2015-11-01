@@ -64,6 +64,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.tori.matchinggame.FillInBlank" />
         </activity>
+        <activity
+            android:name=".FillLessonFre"
+            android:label="@string/title_activity_fill_lesson_fre"
+            android:parentActivityName=".FillInBlank" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.tori.matchinggame.FillInBlank" />
+        </activity>
+        <activity
+            android:name=".FillLessonIta"
+            android:label="@string/title_activity_fill_lesson_ita"
+            android:parentActivityName=".FillInBlank" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.tori.matchinggame.FillInBlank" />
+        </activity>
     </application>
 
 </manifest>

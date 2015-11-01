@@ -71,6 +71,14 @@ public class FillInBlank extends ActionBarActivity {
             intent = new Intent(this, FillLessonAlb.class);
             intent.putExtra("lesson", curr);
             startActivity(intent);
+        } else if (topic.equals("french")) {
+            intent = new Intent(this, FillLessonFre.class);
+            intent.putExtra("lesson", curr);
+            startActivity(intent);
+        } else if (topic.equals("italian")) {
+            intent = new Intent(this, FillLessonIta.class);
+            intent.putExtra("lesson", curr);
+            startActivity(intent);
         }
 
     }
